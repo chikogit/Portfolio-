@@ -1,0 +1,171 @@
+/* About Me section styling */
+#about {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #about p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+/* About Me section styling with Flexbox */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #about p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+    /* Resources section styling with Flexbox */
+#resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #resources h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #resources p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* List styling */
+  #resources ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #resources li {
+    margin-bottom: 10px;
+  }
+  
+  #resources a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  #resources a:hover {
+    text-decoration: underline;
+    color: #004488;
+  }
+  /* Contact Me section styling with Flexbox */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #contact p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  #contact a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+    color: #004488;
+  }
+/* Portfolio section styling with Flexbox */
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #portfolio h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    max-width: 400px;
+    text-align: left;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+/* Header section styling with Flexbox */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
