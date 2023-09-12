@@ -126,7 +126,55 @@
     color: #333;
     margin-bottom: 10px;
   }
-  
+  .project {
+    border: 1px solid #ccc;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the project card horizontally */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .project img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .project p {
+    font-size: 16px;
+  }
+
+  .project {
+    border: 1px solid #ccc;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the project card horizontally */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .project img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .project p {
+    font-size: 16px;
+  }
   .project {
     margin-bottom: 20px;
     max-width: 400px;
@@ -134,30 +182,30 @@
     border: 2px solid #ccc;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
+    .project 
+    {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+    }
   
-  .project h3 {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 10px;
-  }
+    .project h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
   
-  .project p {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.5;
-  }
-/* Header section styling with Flexbox */
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
+    .project img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+  
+    .project p {
+      font-size: 16px;
+    }
   
   header h1 {
     font-size: 36px;
